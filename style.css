@@ -1,0 +1,140 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #eee;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.menu {
+    float: right;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container-satu{
+    width: 1200px;
+    margin:30px auto;
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.kolom-utama{
+    flex: 3;
+}
+
+.sidebar-satu{
+    flex: 1;
+}
+.sidebar-dua{
+    flex: 1;
+}
+.sidebar-satu{
+    padding-top: 10px;
+    margin: 10px;
+}
+.sidebar-satu h2{
+    margin-left: 30px;
+}
+.deskripsi{
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.sidebar-dua{
+    padding-top: 10px;
+}
+
+.button{
+    width: 100%;
+    height: 50px;
+    padding: 35px;
+}
+.left{
+    float: left;
+    display: block;
+}
+.button ul a{
+  padding: 10px;
+  border: 2px solid ;
+  color: rgb(116, 181, 12);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+table td{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+table{
+    width: 400px;
+    margin-top: 10px;
+    line-height: 25px;
+  }
+
+.container{
+    background-color: #fefefe;
+    padding: 30px;
+    width: 1150px;
+    align-items: center;
+    margin-left: 25px;
+}
+  
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+  }
