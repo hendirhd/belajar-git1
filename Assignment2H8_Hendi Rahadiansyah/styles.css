@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: #ddd;
+    margin-top: 15px;
+    padding: 30px;
+}
+
+.text-dark{
+    float: right;
+}

@@ -1,0 +1,208 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #eee;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.menu {
+    float: right;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.profile-section {
+    background-color: white;
+    width:90%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+  }
+  .left-profile {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .left-profile .nama {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1em;
+  }
+  .left-profile .jabatan {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .left-profile .btn-kontak {
+    background-color: #0026f8;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .left-profile .btn-resume {
+    background-color: white;
+    color: #93af83;
+    padding: 0.5em;
+    border-width: 1px;
+    border-color: #93af83;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .left-profile .profile-image {
+    padding-left: 2em;
+  }
+  .left-profile .profile-intro {
+    padding-left: 2em;
+  }
+
+.right-profile {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    justify-content: start;
+    margin-left: 15%;
+  }
+  .bio-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+    justify-content: space-between;
+  }
+
+  .ml-2 {
+    margin-left: 2em;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-left {
+    text-align: left;
+  }
+
+  
+
+.section-bio-form {
+    background-color: white;
+    padding: 2em;
+    margin: 5%;
+  }
+.form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group label {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  .form-group input {
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #93af83;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .btn-submit {
+    margin-top: 1em;
+    width: 100%;
+    background-color: #2f6e16;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px;
+  }
+
+  /* Medium devices (landscape tablets, 975px and up) */
+  @media only screen and (max-width: 975px) {
+    .profile-section {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-right: 10%;
+      background-color: white;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .right-profile {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding-top: 4em;
+      justify-content: start;
+    }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .menu-btn {
+      display: none;
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .menu-btn {
+      display: none;
+    }
+  }
