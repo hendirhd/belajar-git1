@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Looping</title>
+  </head>
+  <body>
+    <script>
+     
+      for (let i = 0; i < 10; i++) {
+        console.log(i);
+      }
+
+      const hobbies = ["Membaca", "Menulis", "Menggambar"];
+    
+      let profile = {
+        name: "random",
+        kelas: "10 Mia 1",
+        hobbies: ["Membaca", "Menulis", "Menggambar"],
+      };
+
+      console.log(profile["name"]);
+
+      for (data in profile) {
+        if (data == "hobbies") {
+          for (hobby in profile[data]) {
+            console.log(profile[data][hobby]);
+          }
+        }
+      }
+
+    </script>
+  </body>
+</html>
