@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #ddd;
+    background-size: cover;
+}
+.mid {
+    text-align: center;
+}
+.deskripsi{
+    text-align: center;
+}
+
+.wrapper {
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.menu {
+    float: left;
+}
+nav {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #F76E11;
+    z-index: 1;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.box-satu {
+    position: absolute;
+    top: 75px;
+    right: 100px;
+    width: 150px;
+    border: 3px solid white;
+    padding: 20px;
+    height: 100px;
+    background-color: white;
+    color: #42C2FF;
+    font-size: 14PX;
+    font-weight: bold;
+}
+.box-dua {
+    position: absolute;
+    right: 100px;
+    margin-top: 110px;
+    width: 150px;
+    border: 3px solid white;
+    padding: 20px;
+    height: 100px;
+    background-color: white;
+    color: #42C2FF;
+    font-size: 14px;
+    font-weight: bold;
+}
+.desc{
+    color: black;
+    font-size: 12px;
+    text-align: justify;
+}
+.container {
+    padding: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    margin: 5px 15px;
+    gap:20px;
+    position: relative;
+    align-items: center;
+  }
+  
+  .card {
+    width: 600px;
+    height: auto;
+    grid-column: span 8;
+    margin:0 auto;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+  
+  }
+  
+  .head-card img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .body-card {
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+a{
+    margin: 25px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
